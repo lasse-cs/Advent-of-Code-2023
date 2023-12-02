@@ -28,7 +28,7 @@ public class Calibration {
         ) {
 
             Calibration cali = new Calibration();
-            int totalCalibration = reader.lines().mapToInt(cali::getCalibrationForLine).peek(i -> System.out.println(i)).sum();
+            int totalCalibration = reader.lines().mapToInt(cali::getCalibrationForLine).sum();
             System.out.println("The total calibration is: " + totalCalibration);
         } catch (IOException ioEx) {
             System.err.println("There was an error trying to read the input");
