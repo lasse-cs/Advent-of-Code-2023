@@ -1,6 +1,8 @@
-package com.hipposaur.day1;
+package com.hipposaur.day1.tests;
 
 import java.util.List;
+
+import com.hipposaur.day1.Calibration;
 
 public class TestCalibration {
 

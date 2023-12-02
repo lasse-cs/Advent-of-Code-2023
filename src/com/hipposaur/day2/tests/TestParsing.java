@@ -1,6 +1,10 @@
-package com.hipposaur.day2;
+package com.hipposaur.day2.tests;
 
 import java.util.List;
+
+import com.hipposaur.day2.Color;
+import com.hipposaur.day2.CubeGame;
+import com.hipposaur.day2.DrawResult;
 
 public class TestParsing {
     
